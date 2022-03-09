@@ -4,7 +4,7 @@ apt-get -y install libpcap-dev libcurl4-openssl-dev libssl-dev pkg-config hcxtoo
 git clone https://github.com/derv82/wifite2
 python /wifite2/setup.py install
 git clone https://github.com/ZerBea/hcxdumptool
-cd hcxdumptool
+cd hcxdumptool 
 make
 make install
 cd ..
@@ -14,6 +14,10 @@ make
 make install
 cd ..
 git clone https://github.com/s0lst1c3/eaphammer
-cd eaphammer
-./kali-setup
+./eaphammer/kali-setup
+cd ..
+git clone https://github.com/warecrer/Hcxpcaptool
+cd Hcxpcaptool
+make 
+make install
 cd ..
